@@ -28,7 +28,7 @@ class MeetDevelopers extends StatelessWidget {
                   ),
                   SizedBox(height: 8),
                   Text(
-                    'Yeabsira Molalegn',
+                    'yabsira molalign',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 16,
@@ -46,9 +46,9 @@ class MeetDevelopers extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text('About Billify Shop App'),
+              title: Text('About shopkeeper Shop App'),
               subtitle: Text(
-                'Billify is a Flutter-based shop app that simplifies the billing process for businesses. '
+                'shopkeeper is a Flutter-based shop app that simplifies the billing process for businesses. '
                 'It allows users to add items, create bills, and track daily sales seamlessly.'
                 ' Explore some of the features and functionalities below:',
               ),
@@ -97,11 +97,11 @@ class MeetDevelopers extends StatelessWidget {
                 'I am',
                 style: TextStyle(
                   color: Colors.amberAccent,
-                  fontSize: 20,
+                  fontSize: 40,
                 ),
               ),
               Text(
-                'Yeabsira Molalegn',
+                'yabsira molalign',
                 style: TextStyle(
                   color: Colors.greenAccent,
                   fontSize: 50,

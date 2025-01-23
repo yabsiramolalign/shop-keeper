@@ -9,6 +9,7 @@ import 'package:shop_keeper/objects/daily_sales.dart';
 import 'package:shop_keeper/objects/item.dart';
 import 'package:shop_keeper/objects/summary.dart';
 import 'package:shop_keeper/screens/welcome_page.dart';
+import 'package:shop_keeper/screens/login_page.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'objects/bill.dart';
 import 'objects/sell_item.dart';
@@ -53,7 +54,7 @@ class MyApp extends StatelessWidget {
           splashTransition: SplashTransition.fadeTransition,
           splashIconSize: 500,
           backgroundColor: Colors.black,
-          nextScreen: WelcomePage()),
+          nextScreen: LoginPage()),
     );
   }
 }
